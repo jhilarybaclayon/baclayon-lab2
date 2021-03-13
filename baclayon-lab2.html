@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<head>
+<title>lab2</title>
+<style>
+*{
+	
+	margin: 0;
+	padding: 0;
+}
+.coverv{
+	margin-top: 0;
+	padding: 0;
+	width: 100%;
+	height: 50%;
+}
+video{
+	max-width: 100%;
+	height: auto;
+	margin-top: 0;
+}
+.container{
+	margin-top: -7px;
+	height: 60px;
+}
+nav ul{
+	list-style: none;
+	display: inline-flex;
+	margin: 20px;	
+}
+nav ul li{
+	margin: 0 10px;
+	cursor: pointer;
+}
+nav ul li a{	
+	font-family:  myriad pro regular;
+	color: #000000;
+	font-size: 20px;
+	font-weight: 100;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	background-color: white;
+	color: black;
+	box-shadow: 5px 10px 30px;
+	transition: all ease 0.2s;
+}
+.logo img{
+	width: 50px;
+	margin-top: -5px;
+	margin-left: -5px;
+}
+.coverp img{
+	width:100%;
+	height: 80vh;
+}
+.coverp{
+	position: relative;
+}
+.coverp h{
+	position: 	absolute;
+	top: 20%;
+	left: 5%;
+	font-size: 60px;
+	font-family; Arial; 
+	font-weight: lighter;
+}
+ .coverp p{
+	position: 	absolute;
+	top: 60%;
+	left: 5%;
+	font-size: 16px;
+	font-family: myriad pro regular; 
+}	
+.bpcontainer::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.bp{
+	font-family:  myriad pro regular;
+	font-size: 30px;
+	margin-top: 2%;	
+	text-align: center;
+	align-content: center;
+	
+}
+.box { 
+	margin-top: 3%;
+	margin-bottom: 5%;
+	margin-left: 1%;
+	margin-right: -1%;
+	box-sizing: border-box;
+	width: 33.33%;
+	float: left;
+	font-size: 12px;
+	text-align: left;
+}
+.box img{
+	margin-top: 2px;
+	height: 250px;
+	width: 95%;
+}
+.box h{
+	font-size: 20px;
+	font-family:  myriad pro regular;
+}
+.box p{
+	font-size: 12px;
+	font-family:  myriad pro regular;
+	margin-right: 8%;
+	text-align: justify;
+}
+.contact{
+	width: 100%;
+	height: 130px;
+	background-color: #ff6f61;
+	text-align: center;
+	padding-top: 30px;
+}
+.contact h{
+	align-items: center;
+	color: white;
+	font-family: myriad pro regular;
+	font-size: 40px;
+}
+.contact p{
+	align-items: center;
+	color: white;
+	font-family:  myriad pro regular;
+	margin-top: 10px;
+	font-size: 16px;
+}
+.contact a{
+	align-items: center;
+	color: white;
+	font-family: myriad pro regular;
+	font-size: 16px;
+	text-decoration: none;
+	font-weight: bold;
+}
+footer{
+	height: 60px;
+	font-size: 16px;
+	font-family: myriad pro regular;
+	text-align: center;
+	margin-top: 33px;
+}
+</style>
+</head>
+
+<body>
+
+	<div class="coverv">
+		<video id="covervideo" autoplay muted loop>
+		<source src="home_page_video.mp4" type="video/mp4">
+	</div>
+
+	<div class="container">
+		<nav>
+		<div class="menu">
+			<ul>
+			<li><a href="#" class="logo"> <img src="logo.png" ></a></li>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+		</nav>
+	</div>
+	<div class="coverp">
+		<img src="cover.jpg" alt="woman in wedding gown">
+		<h> We Promise To <br> Make You Laugh <br> Cry & Smile.</h>
+		<p> We know that your wedding day is a special day that you will remember for the rest of your life. <br> We also know that it can be very busy and hectic, which is why we focus on keeping things simple & easy. <p>
+	</div>
+
+	<div class="bpcontainer">
+		<nav class="bp">
+			<p> Blog post</p>
+		<nav>
+		<div class="box"> 
+		<img src="post-1.jpg">
+		<h> Post 1</h>
+		<p><br>Lorem ipsum dolor sit amet, ut enim ad minim veniam, quis nostrud exercitation llamco laboris nisi. Ut enim ad minim veniam , quis nostrud exercitation ullamco laboris nisi. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.<br><br></p>
+		<a href="lastry.html"> Read More</a>
+		</div>
+
+		<div class="box"> 
+		<img src="post-2.jpg">
+		<h> Post 2</h>
+		<p><br>Lorem ipsum dolor sit amet, ut enim ad minim veniam, quis nostrud exercitation llamco laboris nisi. Ut enim ad minim veniam , quis nostrud exercitation ullamco laboris nisi. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.<br><br></p>
+		<a href="lastry.html"> Read More</a>
+		</div>
+
+		<div class="box"> 
+		<img src="post-3.jpg">
+		<h> Post 3</h>
+		<p><br>Lorem ipsum dolor sit amet, ut enim ad minim veniam, quis nostrud exercitation llamco laboris nisi. Ut enim ad minim veniam , quis nostrud exercitation ullamco laboris nisi. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.<br><br></p>
+		<a href="lastry.html"> Read More</a>
+
+		</div>
+	</div>
+
+	<div class="contact">
+	<h>Let Us Be A Part of Your Memories</h>
+	<p> We know that your wedding day is a special day that you will remember for the rest of your life</p>
+	<a href="#" > Book Now</a>
+	</div>
+	
+<footer> 
+<p> All Rights Reserved</p>
+</footer>
+</body>
+</html>
